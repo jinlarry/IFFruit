@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <UserSecretsId>aspnet-IFFRUITV1-6155ab18-6ac5-4cea-b106-620c6a331353</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\.DS_Store" />
+    <Content Include="wwwroot\css\animate.min.css" />
+    <Content Include="wwwroot\css\bootstrap.min.css" />
+    <Content Include="wwwroot\css\font-awesome.min.css" />
+    <Content Include="wwwroot\css\nivo-lightbox.css" />
+    <Content Include="wwwroot\css\nivo_themes\default\close%402x.png" />
+    <Content Include="wwwroot\css\nivo_themes\default\close.png" />
+    <Content Include="wwwroot\css\nivo_themes\default\default.css" />
+    <Content Include="wwwroot\css\nivo_themes\default\loading%402x.gif" />
+    <Content Include="wwwroot\css\nivo_themes\default\loading.gif" />
+    <Content Include="wwwroot\css\nivo_themes\default\next%402x.png" />
+    <Content Include="wwwroot\css\nivo_themes\default\next.png" />
+    <Content Include="wwwroot\css\nivo_themes\default\prev%402x.png" />
+    <Content Include="wwwroot\css\nivo_themes\default\prev.png" />
+    <Content Include="wwwroot\css\style.css" />
+    <Content Include="wwwroot\fonts\.DS_Store" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\images\footer-bg.jpg" />
+    <Content Include="wwwroot\images\gallery-img1.jpg" />
+    <Content Include="wwwroot\images\gallery-img2.jpg" />
+    <Content Include="wwwroot\images\gallery-img3.jpg" />
+    <Content Include="wwwroot\images\gallery-img4.jpg" />
+    <Content Include="wwwroot\images\gallery-img5.jpg" />
+    <Content Include="wwwroot\images\home-bg.jpg" />
+    <Content Include="wwwroot\images\team1.jpg" />
+    <Content Include="wwwroot\images\team2.jpg" />
+    <Content Include="wwwroot\images\team3.jpg" />
+    <Content Include="wwwroot\js\bootstrap.min.js" />
+    <Content Include="wwwroot\js\custom.js" />
+    <Content Include="wwwroot\js\jquery.js" />
+    <Content Include="wwwroot\js\jquery.parallax.js" />
+    <Content Include="wwwroot\js\nivo-lightbox.min.js" />
+    <Content Include="wwwroot\js\smoothscroll.js" />
+    <Content Include="wwwroot\js\wow.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="1.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.0.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="1.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
