@@ -32,7 +32,6 @@
     <Content Include="wwwroot\css\nivo_themes\default\prev.png" />
     <Content Include="wwwroot\css\simple-line-icons.css" />
     <Content Include="wwwroot\css\style-copy.css" />
-    <Content Include="wwwroot\css\style-foodee.css" />
     <Content Include="wwwroot\css\style-gallery.css" />
     <Content Include="wwwroot\css\style-service.css" />
     <Content Include="wwwroot\css\style.css" />
@@ -57,7 +56,6 @@
     <Content Include="wwwroot\images\gallery-img3.jpg" />
     <Content Include="wwwroot\images\gallery-img4.jpg" />
     <Content Include="wwwroot\images\gallery-img5.jpg" />
-    <Content Include="wwwroot\images\home-bg.jpg" />
     <Content Include="wwwroot\images\loader.gif" />
     <Content Include="wwwroot\images\portfolio\p1.jpg" />
     <Content Include="wwwroot\images\portfolio\p2.jpg" />
