@@ -129,7 +129,7 @@ hr {
 
 /* home section */
 #home {
-    background: url('../images/home-bg2.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/home-bg2.jpg') 60% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
@@ -366,3 +366,101 @@ footer {
         #copyright a:hover {
             color: #FF0;
         }
+
+
+/* service section */
+
+section.services {
+    display: block;
+    margin: 0;
+    padding: 80px 0 60px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
+.pad-bot5 {
+    padding-bottom: 5px;
+}
+
+.mar-bot5 {
+    margin-bottom: 5px;
+}
+
+.section-header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+element.style {
+    visibility: visible;
+}
+
+.section-header h2.section-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.mar-bot40 {
+    margin-bottom: 40px;
+}
+
+.align-center {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.service-col {
+    padding: 40px 20px;
+    margin: 0 10px;
+    background-color: none;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    margin-bottom: 40px;
+}
+
+    .service-col .service-icon {
+        height: 140px;
+        width: 140px;
+        margin: 0 auto;
+        border: 3px solid #417630;
+        -webkit-box-shadow: inset 0 0 0 0 #fff;
+        -moz-box-shadow: inset 0 0 0 0 #fff;
+        box-shadow: inset 0 0 0 0 #fff;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        transition-delay: 0.3s;
+        -webkit-transition-delay: 0.3s;
+    }
+
+figure {
+    display: block
+}
+
+.service-col .service-icon i {
+    font-size: 4.5em;
+    line-height: 140px;
+    margin: 0 auto;
+    color: #417630;
+    -webkit-animation: serviceicon 0.6s ease-in-out;
+    -moz-animation: serviceicon 0.6s ease-in-out;
+    animation: serviceicon 0.6s ease-in-out;
+}
+
+.service-col h2 {
+    font-weight: 600;
+    margin: 1em 0 0.75em;
+}

@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="~/css/nivo-lightbox.css">
     <link rel="stylesheet" href="~/css/nivo_themes/default/default.css">
     <link rel="stylesheet" href="~/css/style.css">
+    <link href="~/css/style-service.css" rel="stylesheet" />
+    <link href="~/css/style-gallery.css" rel="stylesheet" />
+
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -38,9 +41,8 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home" class="smoothScroll">HOME</a></li>
-                    <li><a href="#gallery" class="smoothScroll">PRODUCTS GALLERY</a></li>
-                    <li><a href="#menu" class="smoothScroll">PRICE TABLE</a></li>
-                    <li><a href="#team" class="smoothScroll">SERVICES</a></li>
+                    <li><a href="#portfolio-section" class="smoothScroll">PRODUCTS GALLERY</a></li>
+                    <li><a href="#services" class="smoothScroll">SERVICES</a></li>
                     <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
                 </ul>
             </div>
@@ -60,123 +62,187 @@
         </div>
     </section>
 
-    <!-- gallery section -->
-    <section id="gallery" class="parallax-section">
+    <!-- Begin Portfolio -->
+    <section id="portfolio-section" class="page bg-style1">
         <div class="container">
             <div class="row">
-                <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-                    <h1 class="heading">Food Gallery</h1>
-                    <hr>
-                </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <a href="~/images/gallery-img1.jpg" data-lightbox-gallery="zenda-gallery"><img src="~/images/gallery-img1.jpg" alt="gallery img"></a>
-                    <div>
-                        <h3>Lemon-Rosemary Prawn</h3>
-                        <span>Seafood / Shrimp / Lemon</span>
-                    </div>
-                    <a href="~/images/gallery-img2.jpg" data-lightbox-gallery="zenda-gallery"><img src="~/images/gallery-img2.jpg" alt="gallery img"></a>
-                    <div>
-                        <h3>Lemon-Rosemary Vegetables</h3>
-                        <span>Tomato / Rosemary / Lemon</span>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <a href="~/images/gallery-img3.jpg" data-lightbox-gallery="zenda-gallery"><img src="~/images/gallery-img3.jpg" alt="gallery img"></a>
-                    <div>
-                        <h3>Lemon-Rosemary Bakery</h3>
-                        <span>Bread / Rosemary / Orange</span>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-                    <a href="~/images/gallery-img4.jpg" data-lightbox-gallery="zenda-gallery"><img src="~/images/gallery-img4.jpg" alt="gallery img"></a>
-                    <div>
-                        <h3>Lemon-Rosemary Salad</h3>
-                        <span>Chicken / Rosemary / Green</span>
-                    </div>
-                    <a href="~/images/gallery-img5.jpg" data-lightbox-gallery="zenda-gallery"><img src="~/images/gallery-img5.jpg" alt="gallery img"></a>
-                    <div>
-                        <h3>Lemon-Rosemary Pizza</h3>
-                        <span>Pasta / Rosemary / Green</span>
+                <div class="col-md-12">
+                    <div class="portfolio">
+                        <!-- Begin page header-->
+                        <div class="page-header-wrapper">
+                            <div class="container">
+                                <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                    <h2>Our Works</h2>
+                                    <div class="devider"></div>
+                                    <p class="subtitle">What we are proud of</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End page header-->
+                        <div class="portfoloi_content_area">
+                            <div class="portfolio_content">
+                                <div class="row" id="portfolio">
+                                    <div class="col-xs-12 col-sm-4 appsDevelopment">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p1.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Skull Awesome</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p2.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Photo Frame</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 responsive">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p3.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Hand Shots</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 webDesign websites">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p4.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Night Abstract</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 appsDevelopment websites">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p5.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Joy of Independence</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p6.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Night Crawlers</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 responsive">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p7.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Last Motel</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p8.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Dirk Road</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-4 websites">
+                                        <div class="portfolio_single_content">
+                                            <img src="~/images/portfolio/p9.jpg" alt="title" />
+                                            <div>
+                                                <a href="#">Old is Gold</a>
+                                                <span>Subtitle</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End portfolio -->
 
-
-    <!-- menu section -->
-    <section id="menu" class="parallax-section">
+    <!-- services -->
+    <section id="services" class="services pad-bot5 bg-white">
         <div class="container">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-                    <h1 class="heading">Price Table</h1>
-                    <hr>
+            <div class="row mar-bot5">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="section-header">
+                        <div class="wow bounceIn" data-animation-delay="7.8s">
+
+                            <h2 class="section-heading animated">Our Service</h2>
+                            <h4>Neque porro quisquam est, qui dolorem ipsum quia dolor.</h4>
+
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Lemon-Rosemary Vegetable ................ <span>$20.50</span></h4>
-                    <h5>Chicken / Rosemary / Lemon</h5>
+            </div>
+            <div class="row mar-bot40">
+                <div class="col-lg-4">
+                    <div class="wow bounceIn">
+                        <div class="align-center">
+
+                            <div class="wow rotateIn">
+                                <div class="service-col">
+                                    <div class="service-icon">
+                                        <figure><i class="fa fa-cog"></i></figure>
+                                    </div>
+                                    <h2><a href="#">Easy to Customize</a></h2>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Lemon-Rosemary Meat ........................... <span>$30.50</span></h4>
-                    <h5>Meat / Rosemary / Lemon</h5>
+
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <div class="wow bounceIn">
+
+                            <div class="wow rotateIn">
+                                <div class="service-col">
+                                    <div class="service-icon">
+                                        <figure><i class="fa fa-desktop"></i></figure>
+                                    </div>
+                                    <h2><a href="#">Responsive Layout</a></h2>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Lemon-Rosemary Pork ........................ <span>$40.75</span></h4>
-                    <h5>Pork / Tooplate / Lemon</h5>
+
+                <div class="col-lg-4">
+                    <div class="align-center">
+                        <div class="wow bounceIn">
+                            <div class="service-col">
+                                <div class="service-icon">
+                                    <figure><i class="fa fa-dropbox"></i></figure>
+                                </div>
+                                <h2><a href="#">Ready to Use</a></h2>
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Orange-Rosemary Salad .......................... <span>$55.00</span></h4>
-                    <h5>Salad / Rosemary / Orange</h5>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Lemon-Rosemary Squid ...................... <span>$65.00</span></h4>
-                    <h5>Squid / Rosemary / Lemon</h5>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Orange-Rosemary Shrimp ........................ <span>$70.50</span></h4>
-                    <h5>Shrimp / Rosemary / Orange</h5>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Lemon-Rosemary Prawn ................... <span>$110.75</span></h4>
-                    <h5>Chicken / Rosemary / Lemon</h5>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <h4>Lemon-Rosemary Seafood ..................... <span>$220.50</span></h4>
-                    <h5>Seafood / Rosemary / Lemon</h5>
-                </div>
+
             </div>
         </div>
     </section>
 
-
-    <!-- team section -->
-    <section id="team" class="parallax-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-offset-2 col-md-8 col-sm-12 text-center">
-                    <h1 class="heading">Meet Zentro chefs</h1>
-                    <hr>
-                </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <img src="~/images/team1.jpg" class="img-responsive center-block" alt="team img">
-                    <h4>Thanya</h4>
-                    <h3>Main Chef</h3>
-                </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
-                    <img src="~/images/team2.jpg" class="img-responsive center-block" alt="team img">
-                    <h4>Lynda</h4>
-                    <h3>Pizza Specialist</h3>
-                </div>
-                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.9s">
-                    <img src="~/images/team3.jpg" class="img-responsive center-block" alt="team img">
-                    <h4>Jenny Ko</h4>
-                    <h3>New Baker</h3>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
+    <!--/services-->
     <!-- contact section -->
     <section id="contact" class="parallax-section">
         <div class="container">
