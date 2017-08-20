@@ -57,6 +57,7 @@
     <Content Include="wwwroot\images\gallery-img4.jpg" />
     <Content Include="wwwroot\images\gallery-img5.jpg" />
     <Content Include="wwwroot\images\loader.gif" />
+    <Content Include="wwwroot\images\portfolio\durain.jpg" />
     <Content Include="wwwroot\images\portfolio\p1.jpg" />
     <Content Include="wwwroot\images\portfolio\p2.jpg" />
     <Content Include="wwwroot\images\portfolio\p3.jpg" />
@@ -77,9 +78,6 @@
     <Content Include="wwwroot\images\slide_1.jpg" />
     <Content Include="wwwroot\images\slide_2.jpg" />
     <Content Include="wwwroot\images\slide_3.jpg" />
-    <Content Include="wwwroot\images\team1.jpg" />
-    <Content Include="wwwroot\images\team2.jpg" />
-    <Content Include="wwwroot\images\team3.jpg" />
     <Content Include="wwwroot\images\type-1.png" />
     <Content Include="wwwroot\images\type-2.png" />
     <Content Include="wwwroot\images\type-3.png" />
